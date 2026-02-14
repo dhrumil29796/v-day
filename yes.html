@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forever Yours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body class="yes-body">
+    <div class="hearts-bg"></div>
+    <div class="falling-hearts" id="falling-hearts"></div>
+
+    <div class="container yes-container">
+        <h1 class="yes-title">Our Love Story</h1>
+
+        <div class="timeline-horizontal">
+            <div class="timeline-item">
+                <div class="year-badge">2018</div>
+                <div class="photo-frame">
+                    <img src="images/IMG_20180128_224234-01.jpeg" alt="Where it all began">
+                </div>
+                <p class="photo-caption">When it all began<br><span class="small-text">8 years ago</span></p>
+            </div>
+
+            <div class="timeline-connector-horizontal">
+                <span class="heart-icon">💕</span>
+            </div>
+
+            <div class="timeline-item">
+                <div class="year-badge">Forever</div>
+                <div class="photo-frame old-us">
+                    <img src="images/Snapchat-339931279.jpg" alt="Growing old together">
+                </div>
+                <p class="photo-caption forever-caption">
+                    My Forever Valentine<br>
+                    <span class="small-text">Even when we are all saggy and old</span>
+                </p>
+            </div>
+        </div>
+
+        <p class="yes-message">I love you, Meghu. Always have, always will.</p>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="music/Bruno Mars - Just The Way You Are (Official Music Video).mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+    <script src="yes-script.js"></script>
+</body>
+</html>
