@@ -227,21 +227,16 @@ h1 {
     font-size: 3.5rem;
     color: #e91e63;
     margin-bottom: 40px;
-    animation: glowPulse 2s ease-in-out infinite;
-    text-shadow:
-        0 0 10px rgba(233, 30, 99, 0.5),
-        0 0 20px rgba(233, 30, 99, 0.3),
-        0 0 30px rgba(233, 30, 99, 0.2);
+    animation: titlePulse 2s ease-in-out infinite;
+    text-shadow: 2px 2px 4px rgba(233, 30, 99, 0.3);
 }
 
-@keyframes glowPulse {
+@keyframes titlePulse {
     0%, 100% {
         transform: scale(1);
-        filter: brightness(1);
     }
     50% {
-        transform: scale(1.02);
-        filter: brightness(1.1);
+        transform: scale(1.03);
     }
 }
 
